@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE SIMPLE_RETURN SYSTEM "https://qualysapi.qg4.apps.qualys.com/api/2.0/simple_return.dtd">
+<SIMPLE_RETURN>
+  <REQUEST>
+    <DATETIME>2022-08-30T19:10:24Z</DATETIME>
+    <USER_LOGIN>gecmm6ca</USER_LOGIN>
+    <RESOURCE>https://qualysapi.qg4.apps.qualys.com/api/2.0/fo/asset/group/</RESOURCE>
+    <PARAM_LIST>
+      <PARAM>
+        <KEY>action</KEY>
+        <VALUE>add</VALUE>
+      </PARAM>
+      <PARAM>
+        <KEY>echo_request</KEY>
+        <VALUE>1</VALUE>
+      </PARAM>
+      <PARAM>
+        <KEY>ips</KEY>
+        <VALUE>64.41.200.250</VALUE>
+      </PARAM>
+      <PARAM>
+        <KEY>title</KEY>
+        <VALUE>.250API(test)</VALUE>
+      </PARAM>
+    </PARAM_LIST>
+  </REQUEST>
+  <RESPONSE>
+    <DATETIME>2022-08-30T19:10:24Z</DATETIME>
+    <TEXT>Asset Group successfully added.</TEXT>
+    <ITEM_LIST>
+      <ITEM>
+        <KEY>ID</KEY>
+        <VALUE>967569</VALUE>
+      </ITEM>
+    </ITEM_LIST>
+  </RESPONSE>
+</SIMPLE_RETURN>

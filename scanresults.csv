@@ -1,0 +1,765 @@
+"Scan Results","09/08/2022 13:13:03"
+"GeoComm","601 W St Germain St",,"Saint Cloud","Minnesota","United States of America","56301"
+"Chi Asangwe","gecmm6ca","Manager"
+
+"Launch Date","Active Hosts","Total Hosts","Type","Status","Reference","Scanner Appliance","Duration","Scan Title","Asset Groups","IPs","Excluded IPs","Option Profile","Network"
+"08/24/2022 16:57:02","1","1","API","Finished","scan/1661360222.38451","64.39.98.42 (Scanner 12.11.33-1, Vulnerability Signatures 2.5.565-2)","00:26:09","W2008R2/W2007 VMDR Scan","W2008R2/W2007","38.92.142.49",,"Custom_Auth_Scan","Global Default Network"
+
+"IP","DNS","NetBIOS","OS","IP Status","QID","Title","Type","Severity","Port","Protocol","FQDN","SSL","CVE ID","Vendor Reference","Bugtraq ID","Threat","Impact","Solution","Exploitability","Associated Malware","Results","PCI Vuln","Instance","Category"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","6","DNS Host Name","Ig","1",,,,"no",,,,"The fully qualified domain name of this host, if it was obtained from a DNS server, is displayed in the RESULT section.","N/A","N/A",,,"IP address	Host name
+38.92.142.49	No registered hostname","no",,"Information gathering"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","34011","Firewall Detected","Ig","1",,,,"no",,,,"A packet filtering device protecting this IP was detected. This is likely to be a firewall or a router using access control lists (ACLs).","N/A","N/A",,,"Some of the ports filtered by the firewall are: 20, 21, 22, 23, 25, 53, 80, 111, 135, 445.
+
+Listed below are the ports filtered by the firewall.
+No response has been received when any of these ports are probed.
+1-3,5,7,9,11,13,15,17-25,27,29,31,33,35,37-39,41-223,242-246,256-265,
+280-282,309,311,318,322-325,344-351,363,369-442,444-581,587,592-593,598,
+600,606-620,624,627,631,633-637,666-674,700,704-705,707,709-711,729-731,
+740-742,744,747-754,758-765,767,769-777,780-783,786,799-801,860,873,886-888,
+900-901,911,950,954-955,990-993,995-1001,1008,1010-1011,1015,1023-1100,
+1109-1112,1114,1123,1155,1167,1170,1207,1212,1214,1220-1222,1234-1236,
+1241,1243,1245,1248,1269,1313-1314,1337,1344-1625,1636-1705,1707-1774,
+1776-1815,1818-1824,1900-1909,1911-1920,1944-1951,1973,1981,1985-1999,
+2001-2028,2030,2032-2036,2038,2040-2049,2053,2065,2067,2080,2097,2100,
+2102, and more.
+We have omitted from this list 707 higher ports to keep the report size manageable.","no",,"Firewall"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","45006","Traceroute","Ig","1",,,,"no",,,,"Traceroute describes the path in realtime from the scanner to the remote host being contacted. It reports the IP addresses of all the routers in between.",,,,,"Hops	IP	Round Trip Time	Probe	Port
+1	139.87.10.5	0.13ms	ICMP	 
+2	4.15.10.202	0.41ms	ICMP	 
+3	*.*.*.*	0.00ms	Other	443
+4	4.69.219.214	1.48ms	ICMP	 
+5	*.*.*.*	0.00ms	Other	443
+6	154.54.28.145	2.06ms	ICMP	 
+7	154.54.42.78	10.01ms	ICMP	 
+8	154.54.87.25	10.62ms	ICMP	 
+9	154.54.87.22	30.70ms	ICMP	 
+10	154.54.31.90	34.29ms	ICMP	 
+11	154.54.40.42	38.74ms	ICMP	 
+12	154.54.30.13	46.81ms	ICMP	 
+13	154.54.2.2	52.06ms	ICMP	 
+14	154.24.7.78	52.24ms	ICMP	 
+15	38.92.142.34	59.25ms	ICMP	 
+16	38.92.142.49	61.82ms	TCP	443","no",,"Information gathering"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","45004","Target Network Information","Ig","1",,,,"no",,,,"The information shown in the Result section was returned by the network infrastructure responsible for routing traffic from our cloud platform to the target network (where the scanner appliance is located). 
+This information was returned from: 1) the WHOIS service, or 2) the infrastructure provided by the closest gateway server to our cloud platform. If your ISP is routing traffic, your ISP's gateway server returned this information.","This information can be used by malicious users to gather more information about the network infrastructure that may help in launching attacks against it.","N/A",,,"The network handle is: COGENT-A
+Network description:
+PSINet, Inc.","no",,"Information gathering"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","45005","Internet Service Provider","Ig","1",,,,"no",,,,"The information shown in the Result section was returned by the network infrastructure responsible for routing traffic from our cloud platform to the target network (where the scanner appliance is located). 
+
+ This information was returned from: 1) the WHOIS service, or 2) the infrastructure provided by the closest gateway server to our cloud platform. If your ISP is routing traffic, your ISP's gateway server returned this information.","This information can be used by malicious users to gather more information about the network infrastructure that may aid in launching further attacks against it.","N/A",,,"The ISP network handle is: LVLT-ORG-4-8
+ISP Network description:
+Level 3 Parent, LLC","no",,"Information gathering"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","105873","EOL/Obsolete Software: Microsoft Internet Information Services (IIS) 7.5 Detected","Practice","5",,,,"no",,"IIS 7.5 End of Life",,"Internet Information Services (IIS, formerly Internet Information Server) is an extensible web server created by Microsoft for use with the Windows NT family. IIS supports HTTP, HTTP/2, HTTPS, FTP, FTPS, SMTP and NNTP. It has been an integral part of the Windows NT family since Windows NT 4.0, though it may be absent from some editions (e.g. Windows XP Home edition), and is not active by default.
+
+ Affected Versions: 
+IIS 7.5
+
+ QID Detection Logic (Authenticated) 
+This checks for vulnerable version of IIS in the windows registry path against unsupported Windows Server 2008 , 2008 R2 and Windows 7 operating systems.
+
+ QID Detection Logic (Unauthenticated) 
+This checks for vulnerable version of IIS by checking the banner information.","The system is at high risk of being exposed to security vulnerabilities. Since the vendor no longer provides updates, obsolete software is more vulnerable to viruses and other attacks.","Customers are advised to upgrade to the latest supported IIS version.",,,"EOL/Obsolete version of IIS 7.5 is Detected on port 443 - 
+Content-Type: text/html
+Last-Modified: Tue, 06 Aug 2013 17:06:39 GMT
+Accept-Ranges: bytes
+ETag: ""89732d51c792ce1:0""
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Date: Wed, 24 Aug 2022 16:59:40 GMT
+Connection: close
+Content-Length: 689
+
+<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Strict//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-1"" />
+<title>IIS7</title>
+<style type=""text/css"">
+<!--
+body {
+color:000000;
+background-color:B3B3B3;
+margin:0;
+}
+
+container {
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
+a img {
+border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id=""container"">
+<img src=""welcome.png"" alt=""IIS7"" width=""571"" height=""411"" /> (http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409)
+</div>
+</body>
+</html>EOL/Obsolete version of IIS 7.5 is detected on port 443 over TCP.
+Server: Microsoft-IIS/7.5","yes",,"Security Policy"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","82056","Host Name Not Available","Ig","1",,,,"no",,,,"Attempts to obtain the fully-qualified domain name (FQDN) or the Netbios name failed for this host.",,,,,"","no",,"TCP/IP"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","82046","IP ID Values Randomness","Ig","1",,,,"no",,,,"The values for the identification (ID) field in IP headers in IP packets from the host are analyzed to determine how random they are. The changes between subsequent ID values for either the network byte ordering or the host byte ordering, whichever is smaller, are displayed in the RESULT section along with the duration taken to send the probes. When incremental values are used, as is the case for TCP/IP implementation in many operating systems, these changes reflect the network load of the host at the time this test was conducted.
+ 
+Please note that for reliability reasons only the network traffic from open TCP ports is analyzed.","N/A","N/A",,,"IP ID changes observed (network order) for port 443: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Duration: 33 milli seconds","no",,"TCP/IP"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","82063","Host Uptime Based on TCP TimeStamp Option","Ig","2",,,,"no",,,,"The TCP/IP stack on the host supports the TCP TimeStamp (kind 8) option. Typically the timestamp used is the host's uptime (since last reboot) in various units (e.g., one hundredth of second, one tenth of a second, etc.). Based on this, we can obtain the host's uptime. The result is given in the Result section below.
+ 
+Some operating systems (e.g., MacOS, OpenBSD) use a non-zero, probably random, initial value for the timestamp. For these operating systems, the uptime obtained does not reflect the actual uptime of the host; the former is always larger than the latter.","N/A","N/A",,,"Based on TCP timestamps obtained via port 443, the host's uptime is 12 days, 6 hours, and 13 minutes.
+The TCP timestamps from the host are in units of 10 milliseconds.","no",,"TCP/IP"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","82045","Degree of Randomness of TCP Initial Sequence Numbers","Ig","1",,,,"no",,,,"TCP Initial Sequence Numbers (ISNs) obtained in the SYNACK replies from the host are analyzed to determine how random they are. The average change between subsequent ISNs and the standard deviation from the average are displayed in the RESULT section. Also included is the degree of difficulty for exploitation of the TCP ISN generation scheme used by the host.","N/A","N/A",,,"Average change between subsequent TCP initial sequence numbers is 1103637059 with a standard deviation of 650035000. These TCP initial sequence numbers were triggered by TCP SYN probes sent to the host at an average rate of 1/(5100 microseconds). The degree of difficulty to exploit the TCP initial sequence number generation scheme is: hard.","no",,"TCP/IP"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","45017","Operating System Detected","Ig","2",,,,"no",,,,"Several different techniques can be used to identify the operating system (OS) running on a host. A short description of these techniques is provided below. The specific technique used to identify the OS on this host is included in the RESULTS section of your report.
+ 
+1)  TCP/IP Fingerprint : The operating system of a host can be identified from a remote system using TCP/IP fingerprinting. All underlying operating system TCP/IP stacks have subtle differences that can be seen in their responses to specially-crafted TCP packets. According to the results of this ""fingerprinting"" technique, the OS version is among those listed below. 
+ 
+Note that if one or more of these subtle differences are modified by a firewall or a packet filtering device between the scanner and the host, the fingerprinting technique may fail. Consequently, the version of the OS may not be detected correctly. If the host is behind a proxy-type firewall, the version of the operating system detected may be that of the firewall instead of the host being scanned.
+ 
+2)  NetBIOS : Short for Network Basic Input Output System, an application programming interface (API) that augments the DOS BIOS by adding special functions for local-area networks (LANs). Almost all LANs for PCs are based on the NetBIOS. Some LAN manufacturers have even extended it, adding additional network capabilities. NetBIOS relies on a message format called Server Message Block (SMB). 
+ 
+3)  PHP Info : PHP is a hypertext pre-processor, an open-source, server-side, HTML-embedded scripting language used to create dynamic Web pages. Under some configurations it is possible to call PHP functions like phpinfo() and obtain operating system information.
+ 
+4)  SNMP : The Simple Network Monitoring Protocol is used to monitor hosts, routers, and the networks to which they attach. The SNMP service maintains Management Information Base (MIB), a set of variables (database) that can be fetched by Managers. These include ""MIB_II.system.sysDescr"" for the operating system.","Not  applicable.","Not  applicable.",,,"Operating System	Technique	ID
+Windows 2008 R2 / Windows 7	TCP/IP Fingerprint	U3414:443","no",,"Information gathering"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","82023","Open TCP Services List","Ig","1",,,,"no",,,,"The port scanner enables unauthorized users with the appropriate tools to draw a map of all services on this host that can be accessed from the Internet.  The test was carried out with a ""stealth"" port scanner so that the server does not log real connections.
+ 
+The Results section displays the port number (Port), the default service listening on the port (IANA Assigned Ports/Services), the description of the service (Description) and the service that the scanner detected using service discovery (Service Detected).","Unauthorized users can exploit this information to test vulnerabilities in each of the open services.","Shut down any unknown or unused service on the list.  If you have difficulty figuring out which service is provided by which process or program, contact your provider's support team.  For more information about commercial and open-source Intrusion Detection Systems available for detecting port scanners of this kind, visit the CERT Web site (http://www.cert.org).",,,"Port	IANA Assigned Ports/Services	Description	Service Detected	OS On Redirected Port
+443	https	http protocol over TLS/SSL	http over ssl","no",,"TCP/IP"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","45038","Host Scan Time - Scanner","Ig","1",,,,"no",,,,"The Host Scan Time is the period of time it takes the scanning engine to perform the vulnerability assessment of a single target host. The Host Scan Time for this host is reported in the Result section below. 
+ 
+The Host Scan Time does not have a direct correlation to the Duration time as displayed in the Report Summary section of a scan results report. The Duration is the period of time it takes the service to perform a scan task. The Duration includes the time it takes the service to scan all hosts, which may involve parallel scanning. It also includes the time it takes for a scanner appliance to pick up the scan task and transfer the results back to the service's Secure Operating Center. Further, when a scan task is distributed across multiple scanners, the Duration includes the time it takes to perform parallel host scanning on all scanners.","N/A","N/A",,,"Scan duration: 1558 seconds
+
+Start time: Wed, Aug 24 2022, 16:58:43 GMT
+
+End time: Wed, Aug 24 2022, 17:24:41 GMT","no",,"Information gathering"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","45426","Scan Activity per Port","Ig","1",,,,"no",,,,"Scan activity per port is an estimate of the amount of internal process time the scanner engine spent scanning a particular TCP or UDP port. This information can be useful to determine the reason for long scan times. The individual time values represent internal process time, not elapsed time, and can be longer than the total scan time because of internal parallelism. High values are often caused by slowly responding services or services on which requests time out.","N/A","N/A",,,"Protocol	Port	Time
+TCP	443	 3:07:45","no",,"Information gathering"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38291","SSL Session Caching Information","Ig","1","443","tcp",,"yes",,,,"SSL session is a collection of security parameters that are negotiated by the SSL client and server for each SSL connection. SSL session caching is targeted to reduce the overhead of negotiations in recurring SSL connections. SSL sessions can be reused to resume an earlier connection or to establish multiple simultaneous connections. The client suggests an SSL session to be reused by identifying the session with a Session-ID during SSL handshake. If the server finds it appropriate to reuse the session,  then they both proceed to secure communication with already known security parameters.
+ 
+This test determines if SSL session caching is enabled on the host.","SSL session caching is part of the SSL and TLS protocols and is not a security threat. The result of this test is for informational purposes only.","N/A",,,"SSLv2 session caching is disabled on the target.
+SSLv3 session caching is disabled on the target.
+TLSv1 session caching is enabled on the target.","no",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","86002","SSL Certificate - Information","Ig","1","443","tcp",,"yes",,,,"SSL certificate information is provided in the Results section.","N/A","N/A",,,"NAME	VALUE
+(0)CERTIFICATE 0	 
+(0)Version	3 (0x2)
+(0)Serial Number	 82:fd:93:7f:30:07:f2:91:c4:1f:be:aa:25:64:ca:dc 
+(0)Signature Algorithm	sha256WithRSAEncryption
+(0)ISSUER NAME	 
+countryName	GB
+ stateOrProvinceName	Greater Manchester
+ localityName	Salford
+ organizationName	Sectigo Limited
+ commonName	Sectigo RSA Domain Validation Secure Server CA
+(0)SUBJECT NAME	 
+commonName	gisservices.geo-comm.com
+(0)Valid From	Oct 8 00:00:00 2021 GMT
+(0)Valid Till	Nov 8 23:59:59 2022 GMT
+(0)Public Key Algorithm	rsaEncryption
+(0)RSA Public Key	(2048 bit)
+(0)	 RSA Public-Key: (2048 bit)
+(0)	 Modulus:
+(0)	 00:d5:c4:6d:e4:8a:b9:fb:85:14:eb:b8:8e:8f:7e:
+(0)	 aa:3a:f9:63:c8:ad:c3:1d:69:ed:79:06:ea:1c:bd:
+(0)	 8e:f9:d2:4a:d3:03:07:2c:8a:86:7f:d1:8a:a8:43:
+(0)	 99:43:12:5a:04:0f:b9:60:54:ed:26:98:7a:1e:5c:
+(0)	 9b:23:d4:89:92:5a:36:13:bc:d7:fa:f7:e1:d9:f2:
+(0)	 4b:e7:96:2f:71:04:10:bf:83:e4:9e:1c:dd:58:18:
+(0)	 4a:81:17:99:df:96:a6:72:4d:2f:17:f6:1d:64:3f:
+(0)	 86:d3:19:ae:c0:0e:ea:21:cb:95:82:0f:0a:27:f0:
+(0)	 a9:61:e5:95:e7:18:a3:fb:9b:bf:18:aa:5d:02:80:
+(0)	 09:e0:50:90:47:e4:3d:ac:ac:89:a6:90:cb:2d:be:
+(0)	 08:f6:ba:24:54:6e:31:1c:1e:0b:ef:f9:b0:a6:ac:
+(0)	 af:77:32:64:1d:97:1c:29:b1:53:b7:27:6e:3c:d3:
+(0)	 8c:3b:50:b2:2c:25:be:44:4a:f9:a8:67:50:2c:d8:
+(0)	 a1:69:f5:ff:c6:58:42:87:46:83:be:7c:08:cf:5a:
+(0)	 2b:72:cf:89:0b:96:48:e4:e9:bb:bf:dc:aa:c3:fc:
+(0)	 a8:a3:51:e1:eb:02:c2:09:af:98:84:c2:3a:bd:90:
+(0)	 0c:12:33:20:86:36:ab:c3:7e:eb:79:ff:17:dc:2f:
+(0)	 fb:75
+(0)	 Exponent: 65537 (0x10001)
+(0)X509v3 EXTENSIONS	 	
+(0)X509v3 Authority Key Identifier	 keyid:8D:8C:5E:C4:54:AD:8A:E1:77:E9:9B:F9:9B:05:E1:B8:01:8D:61:E1
+(0)X509v3 Subject Key Identifier	 B1:E8:59:E5:E9:02:91:B6:80:08:1D:7C:0F:31:FE:F2:92:04:14:7A
+(0)X509v3 Key Usage	critical
+(0)	 Digital Signature, Key Encipherment
+(0)X509v3 Basic Constraints	critical
+(0)	 CA:FALSE
+(0)X509v3 Extended Key Usage	 TLS Web Server Authentication, TLS Web Client Authentication
+(0)X509v3 Certificate Policies	 Policy: 1.3.6.1.4.1.6449.1.2.2.7
+(0)	 CPS: https://sectigo.com/CPS
+(0)	 Policy: 2.23.140.1.2.1
+(0)Authority Information Access	 CA Issuers - URI:http://crt.sectigo.com/SectigoRSADomainValidationSecureServerCA.crt
+(0)	 OCSP - URI:http://ocsp.sectigo.com
+(0)X509v3 Subject Alternative Name	 DNS:gisservices.geo-comm.com, DNS:www.gisservices.geo-comm.com
+(0)CT Precertificate SCTs	 Signed Certificate Timestamp:
+(0)	 Version : v1 (0x0)
+(0)	 Log ID : 46:A5:55:EB:75:FA:91:20:30:B5:A2:89:69:F4:F3:7D:
+(0)	 11:2C:41:74:BE:FD:49:B8:85:AB:F2:FC:70:FE:6D:47
+(0)	 Timestamp : Oct 8 13:29:52.492 2021 GMT
+(0)	 Extensions: none
+(0)	 Signature : ecdsa-with-SHA256
+(0)	 30:45:02:21:00:C5:BA:85:61:94:3F:20:9D:11:83:BF:
+(0)	 FE:BC:E5:58:3E:DB:4B:43:BE:B3:52:07:3C:E8:5E:63:
+(0)	 4A:1E:4A:AF:96:02:20:65:4D:E3:56:69:54:0E:A8:D7:
+(0)	 51:32:67:0E:89:85:86:DA:83:DA:52:10:C3:EB:8C:9F:
+(0)	 71:3F:DD:C5:5C:41:E5
+(0)	 Signed Certificate Timestamp:
+(0)	 Version : v1 (0x0)
+(0)	 Log ID : 41:C8:CA:B1:DF:22:46:4A:10:C6:A1:3A:09:42:87:5E:
+(0)	 4E:31:8B:1B:03:EB:EB:4B:C7:68:F0:90:62:96:06:F6
+(0)	 Timestamp : Oct 8 13:29:52.502 2021 GMT
+(0)	 Extensions: none
+(0)	 Signature : ecdsa-with-SHA256
+(0)	 30:45:02:20:2A:B9:B8:64:EF:77:72:BB:57:DD:19:49:
+(0)	 1B:72:56:2E:89:EB:E7:D4:44:8D:27:83:2C:5B:00:17:
+(0)	 D0:48:52:81:02:21:00:E7:CE:CE:07:89:8E:24:C5:64:
+(0)	 38:D3:6A:B5:96:48:48:E5:4A:19:B0:F6:FA:A4:04:68:
+(0)	 9B:61:83:DD:F9:04:EF
+(0)	 Signed Certificate Timestamp:
+(0)	 Version : v1 (0x0)
+(0)	 Log ID : 29:79:BE:F0:9E:39:39:21:F0:56:73:9F:63:A5:77:E5:
+(0)	 BE:57:7D:9C:60:0A:F8:F9:4D:5D:26:5C:25:5D:C7:84
+(0)	 Timestamp : Oct 8 13:29:52.462 2021 GMT
+(0)	 Extensions: none
+(0)	 Signature : ecdsa-with-SHA256
+(0)	 30:45:02:21:00:C6:B7:5B:EA:1A:FA:B1:82:B8:D5:48:
+(0)	 F0:D2:79:AD:47:79:60:D6:32:CD:29:10:9A:79:DA:28:
+(0)	 25:61:D2:02:FD:02:20:1E:1C:09:85:8C:90:A8:FE:41:
+(0)	 B7:0E:7B:A3:DF:68:40:87:CD:A3:47:B6:74:90:6A:23:
+(0)	 6E:D1:08:85:87:95:C8
+(0)Signature	(256 octets)
+(0)	3d:99:ac:2d:cf:03:2c:40:ba:54:de:00:74:de:98:58
+(0)	b6:49:d4:9d:23:0c:55:f9:d9:6c:cc:da:52:2f:f8:ff
+(0)	70:db:8b:26:c8:6a:32:4f:29:ff:9c:57:65:68:71:c3
+(0)	5d:64:85:49:68:39:68:7e:ff:6d:e2:b0:d8:38:04:c5
+(0)	77:9f:af:63:66:a0:8d:50:4b:cf:30:38:58:65:02:27
+(0)	81:c6:60:2b:1d:50:5e:4e:d9:d7:d0:8c:81:3f:31:dd
+(0)	6b:1a:41:90:30:bf:9d:10:89:90:c7:0a:4c:87:08:db
+(0)	51:0e:11:35:bf:bb:0d:61:45:94:e1:23:bc:d4:2e:ed
+(0)	69:57:c1:bf:19:a6:a1:5c:11:8c:c2:4e:20:46:a7:7c
+(0)	e5:7e:28:be:73:a9:77:94:93:1d:86:5c:5d:2f:cd:ef
+(0)	66:83:15:2a:51:1c:70:9b:15:fd:10:52:69:50:a0:57
+(0)	c8:f1:ae:21:1a:35:fe:30:16:1e:1d:2b:82:39:1a:8f
+(0)	60:64:22:97:0d:63:32:13:6d:58:94:6e:b6:d3:23:b2
+(0)	59:82:bc:ac:01:e2:91:0b:c5:19:91:c2:d7:e0:bf:88
+(0)	ee:3d:6d:87:7e:e8:e3:25:ff:40:a0:4a:ce:ce:22:f9
+(0)	39:89:b4:87:fb:d7:c8:11:8e:9a:cc:0d:9e:6b:24:72
+(1)CERTIFICATE 1	 
+(1)Version	3 (0x2)
+(1)Serial Number	 7d:5b:51:26:b4:76:ba:11:db:74:16:0b:bc:53:0d:a7 
+(1)Signature Algorithm	sha384WithRSAEncryption
+(1)ISSUER NAME	 
+countryName	US
+ stateOrProvinceName	New Jersey
+ localityName	Jersey City
+ organizationName	The USERTRUST Network
+ commonName	USERTrust RSA Certification Authority
+(1)SUBJECT NAME	 
+countryName	GB
+ stateOrProvinceName	Greater Manchester
+ localityName	Salford
+ organizationName	Sectigo Limited
+ commonName	Sectigo RSA Domain Validation Secure Server CA
+(1)Valid From	Nov 2 00:00:00 2018 GMT
+(1)Valid Till	Dec 31 23:59:59 2030 GMT
+(1)Public Key Algorithm	rsaEncryption
+(1)RSA Public Key	(2048 bit)
+(1)	 RSA Public-Key: (2048 bit)
+(1)	 Modulus:
+(1)	 00:d6:73:33:d6:d7:3c:20:d0:00:d2:17:45:b8:d6:
+(1)	 3e:07:a2:3f:c7:41:ee:32:30:c9:b0:6c:fd:f4:9f:
+(1)	 cb:12:98:0f:2d:3f:8d:4d:01:0c:82:0f:17:7f:62:
+(1)	 2e:e9:b8:48:79:fb:16:83:4e:ad:d7:32:25:93:b7:
+(1)	 07:bf:b9:50:3f:a9:4c:c3:40:2a:e9:39:ff:d9:81:
+(1)	 ca:1f:16:32:41:da:80:26:b9:23:7a:87:20:1e:e3:
+(1)	 ff:20:9a:3c:95:44:6f:87:75:06:90:40:b4:32:93:
+(1)	 16:09:10:08:23:3e:d2:dd:87:0f:6f:5d:51:14:6a:
+(1)	 0a:69:c5:4f:01:72:69:cf:d3:93:4c:6d:04:a0:a3:
+(1)	 1b:82:7e:b1:9a:b9:ed:c5:9e:c5:37:78:9f:9a:08:
+(1)	 34:fb:56:2e:58:c4:09:0e:06:64:5b:bc:37:dc:f1:
+(1)	 9f:28:68:a8:56:b0:92:a3:5c:9f:bb:88:98:08:1b:
+(1)	 24:1d:ab:30:85:ae:af:b0:2e:9e:7a:9d:c1:c0:42:
+(1)	 1c:e2:02:f0:ea:e0:4a:d2:ef:90:0e:b4:c1:40:16:
+(1)	 f0:6f:85:42:4a:64:f7:a4:30:a0:fe:bf:2e:a3:27:
+(1)	 5a:8e:8b:58:b8:ad:c3:19:17:84:63:ed:6f:56:fd:
+(1)	 83:cb:60:34:c4:74:be:e6:9d:db:e1:e4:e5:ca:0c:
+(1)	 5f:15
+(1)	 Exponent: 65537 (0x10001)
+(1)X509v3 EXTENSIONS	 	
+(1)X509v3 Authority Key Identifier	 keyid:53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
+(1)X509v3 Subject Key Identifier	 8D:8C:5E:C4:54:AD:8A:E1:77:E9:9B:F9:9B:05:E1:B8:01:8D:61:E1
+(1)X509v3 Key Usage	critical
+(1)	 Digital Signature, Certificate Sign, CRL Sign
+(1)X509v3 Basic Constraints	critical
+(1)	 CA:TRUE, pathlen:0
+(1)X509v3 Extended Key Usage	 TLS Web Server Authentication, TLS Web Client Authentication
+(1)X509v3 Certificate Policies	 Policy: X509v3 Any Policy
+(1)	 Policy: 2.23.140.1.2.1
+(1)X509v3 CRL Distribution Points	
+(1)	 Full Name:
+(1)	 URI:http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl
+(1)Authority Information Access	 CA Issuers - URI:http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
+(1)	 OCSP - URI:http://ocsp.usertrust.com
+(1)Signature	(512 octets)
+(1)	32:bf:61:bd:0e:48:c3:4f:c7:ba:47:4d:f8:9c:78:19
+(1)	01:dc:13:1d:80:6f:fc:c3:70:b4:52:9a:31:33:9a:57
+(1)	52:fb:31:9e:6b:a4:ef:54:aa:89:8d:40:17:68:f8:11
+(1)	10:7c:d2:ca:b1:f1:55:86:c7:ee:b3:36:91:86:f6:39
+(1)	51:bf:46:bf:0f:a0:ba:b4:f7:7e:49:c4:2a:36:17:9e
+(1)	e4:68:39:7a:af:94:4e:56:6f:b2:7b:3b:bf:0a:86:bd
+(1)	cd:c5:77:1c:03:b8:38:b1:a2:1f:5f:7e:db:8a:dc:46
+(1)	48:b6:68:0a:cf:b2:b5:b4:e2:34:e4:67:a9:38:66:09
+(1)	5e:d2:b8:fc:9d:28:3a:17:40:27:c2:72:4e:29:fd:21
+(1)	3c:7c:cf:13:fb:96:2c:c5:31:44:fd:13:ed:d5:9b:a9
+(1)	69:68:77:7c:ee:e1:ff:a4:f9:36:38:08:53:39:a2:84
+(1)	34:9c:19:f3:be:0e:ac:d5:24:37:eb:23:a8:78:d0:d3
+(1)	e7:ef:92:47:64:62:39:22:ef:c6:f7:11:be:22:85:c6
+(1)	66:44:24:26:8e:10:32:8d:c8:93:ae:07:9e:83:3e:2f
+(1)	d9:f9:f5:46:8e:63:be:c1:e6:b4:dc:a6:cd:21:a8:86
+(1)	0a:95:d9:2e:85:26:1a:fd:fc:b1:b6:57:42:6d:95:d1
+(1)	33:f6:39:14:06:82:41:38:f5:8f:58:dc:80:5b:a4:d5
+(1)	7d:95:78:fd:a7:9b:ff:fd:c5:a8:69:ab:26:e7:a7:a4
+(1)	05:87:5b:a9:b7:b8:a3:20:0b:97:a9:45:85:dd:b3:8b
+(1)	e5:89:37:8e:29:0d:fc:06:17:f6:38:40:0e:42:e4:12
+(1)	06:fb:7b:f3:c6:11:68:62:df:e3:98:f4:13:d8:15:4f
+(1)	8b:b1:69:d9:10:60:bc:64:2a:ea:31:b7:e4:b5:a3:3a
+(1)	14:9b:26:e3:0b:7b:fd:02:8e:b6:99:c1:38:97:59:36
+(1)	f6:a8:74:a2:86:b6:5e:eb:c6:64:ea:cf:a0:a3:f9:6e
+(1)	9e:ba:2d:11:b6:86:98:08:58:2d:c9:ac:25:64:f2:5e
+(1)	75:b4:38:c1:ae:7f:5a:46:83:ea:51:ca:b6:f1:99:11
+(1)	35:6b:a5:6a:7b:c6:00:b0:e7:f8:be:64:b2:ad:c8:c2
+(1)	f1:ac:e3:51:ea:a4:93:e0:79:c8:e1:81:40:c9:0a:5b
+(1)	e1:12:3c:c1:60:2a:e3:97:c0:89:42:ca:94:cf:46:98
+(1)	12:69:bb:98:d0:c2:d3:0d:72:4b:47:6e:e5:93:c4:32
+(1)	28:63:87:43:e4:b0:32:3e:0a:d3:4b:bf:23:9b:14:29
+(1)	41:2b:9a:04:1f:93:2d:f1:c7:39:48:3c:ad:5a:12:7f","no",,"Web server"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38600","SSL Certificate will expire within next six months","Ig","1","443","tcp",,"yes",,,,"Certificates are used for authentication purposes in different protocols such as SSL/TLS. Each certificate has a validity period outside of which it is supposed to be considered invalid. This QID is reported to inform that a certificate will expire within next six months. The advance notice can be helpful since obtaining a certificate can take some time.","Expired certificates can cause connection disruptions or compromise the integrity and privacy of the connections being protected by the certificates.","Contact the certificate authority that signed your certificate to arrange for a renewal.",,,"Certificate 0 CN=gisservices.geo-comm.com The certificate will expire within six months: Nov  8 23:59:59 2022 GMT","no",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38717","Secure Sockets Layer (SSL) Certificate Online Certificate Status Protocol (OCSP) Information","Ig","1","443","tcp",,"yes",,,," OCSP (Online Certificate Status Protocol) is a protocol to determine the status of an SSL certificate, specifically whether a certificate has been revoked by the issuing certificate authority. SSL servers can provide the OCSP status of their certificate as part of the SSL/TLS handshake. This information is referred to as ""Status Request"" or ""OCSP Stapling"".","N/A","N/A",,,"Certificate 0 CN=gisservices.geo-comm.com OCSP status: good","no",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38718","Secure Sockets Layer (SSL) Certificate Transparency Information","Ig","1","443","tcp",,"yes",,,," SSL Certificate Transparency is an industry effort to improve visibility into the process of how certificate authorities issue certificates. It is designed to allow the owners of domain names to find all certificates that have been issued for their domains, and which certificate authorities have issued them. This is done by requiring certificate authorities to publish all issued certificates in public logs. TLS servers can then provide cryptographic evidence to TLS clients that the server certificate has been registered in public logs, thus providing some degree of confidence that the certificate is legitimate. Such cryptographic evidence is referred to as an ""SCT Log Proof"".
+ The information below lists all validated SCT Log Proofs for server certificates along with information about the public log, where available.","N/A","N/A",,,"Source	Validated	Name	URL	ID	Time
+Certificate 0	 	CN=gisservices.geo-comm.com	 	 	 
+Certificate	yes	Google 'Xenon2022' log	ct.googleapis.com/logs/xenon2022/	46a555eb75fa912030b5a28969f4f37d112c4174befd49b885abf2fc70fe6d47	Fri 08 Oct 2021 01:29:52 PM GMT
+Certificate	no	(unknown)	(unknown)	41c8cab1df22464a10c6a13a0942875e4e318b1b03ebeb4bc768f090629606f6	Thu 01 Jan 1970 12:00:00 AM GMT
+Certificate	no	(unknown)	(unknown)	2979bef09e393921f056739f63a577e5be577d9c600af8f94d5d265c255dc784	Thu 01 Jan 1970 12:00:00 AM GMT","no",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38606","SSL Server Has SSLv3 Enabled Vulnerability","Vuln","3","443","tcp",,"yes",,,,"SSL 3.0 is an obsolete and insecure protocol. 
+Encryption in SSL 3.0 uses either the RC4 stream cipher, or a block cipher in CBC mode. 
+RC4 is known to have biases, and the block cipher in CBC mode is vulnerable to the POODLE attack. 
+
+The SSLv3 protocol is insecure due to the POODLE attack and the weakness of RC4 cipher. 
+Note: In April 2016, PCI released PCI DSS v3.2 (https://www.pcisecuritystandards.org/documents/PCI_DSS_v3-2.pdf) announcing that NIST no longer considers Secure Socket Layers (SSL) v3.0 protocol as acceptable for protecting data and that all versions of SSL versions do not meet the PCI definition of ""strong cryptography."" 
+  This QID is an automatic PCI FAIL in accordance with the PCI standards.  
+
+Further details can be found under:  
+PCI: ASV Program Guide v3.1 (page 27) (https://www.pcisecuritystandards.org/documents/ASV_Program_Guide_v3.1.pdf) 
+PCI: Use of SSL Early TLS and ASV Scans (https://www.pcisecuritystandards.org/documents/Use-of-SSL-Early-TLS-and-ASV-Scans.pdf)","An attacker can exploit this vulnerability to read secure communications or maliciously modify messages.","Disable the SSL 3.0 protocol in the client and in the server, refer to 
+How to disable SSLv3 : Disable SSLv3 (http://disablessl3.com/)",,,"SSLv3 is supported","yes",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38628","Secure Sockets Layer/Transport Layer Security (SSL/TLS) Server supports Transport Layer Security (TLSv1.0)","Vuln","3","443","tcp",,"yes",,"Deprecating TLS 1.0 and TLS 1.1",,"TLS is capable of using a multitude of ciphers (algorithms) to create the public and private key pairs. 
+For example if TLSv1.0 uses either the RC4 stream cipher, or a block cipher in CBC mode. 
+RC4 is known to have biases and the block cipher in CBC mode is vulnerable to the POODLE attack. 
+
+TLSv1.0, if configured to use the same cipher suites as SSLv3, includes a means by which a TLS implementation can downgrade the connection to SSL v3.0, thus weakening security. 
+
+A POODLE-type (https://blog.qualys.com/ssllabs/2014/12/08/poodle-bites-tls) attack could also be launched directly at TLS without negotiating a downgrade. 
+
+  This QID is an automatic PCI FAIL in accordance with the PCI standards.  
+
+Further details can be found under:  
+PCI: ASV Program Guide v3.1 (page 27) (https://www.pcisecuritystandards.org/documents/ASV_Program_Guide_v3.1.pdf) 
+PCI: Use of SSL Early TLS and ASV Scans (https://www.pcisecuritystandards.org/documents/Use-of-SSL-Early-TLS-and-ASV-Scans.pdf)
+ 
+ 
+
+NOTE: On March 31, 2021 Transport Layer Security (TLS) versions 1.0 (RFC 2246) and 1.1 (RFC 4346) are formally deprecated.
+Refer to Deprecating TLS 1.0 and TLS 1.1 (https://tools.ietf.org/html/rfc8996)","An attacker can exploit cryptographic flaws to conduct man-in-the-middle type attacks or to decryption communications. 
+For example: An attacker could force a downgrade from the TLS protocol to the older SSLv3.0 protocol and exploit the POODLE vulnerability, read secure communications or maliciously modify messages. 
+A POODLE-type (https://blog.qualys.com/ssllabs/2014/12/08/poodle-bites-tls) attack could also be launched directly at TLS without negotiating a downgrade.","Disable the use of TLSv1.0 protocol in favor of a cryptographically stronger protocol such as TLSv1.2.
+The following openssl commands can be used to do a manual test:
+openssl s_client -connect ip:port -tls1
+
+If the test is successful, then the target support TLSv1",,,"TLSv1.0 is supported","yes",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38139","SSL Server Has SSLv2 Enabled Vulnerability","Vuln","3","443","tcp",,"yes","CVE-2016-0800",,"91787, 83733","The Secure Socket Layer (SSL) protocol allows for secure communication between a client and a server.
+ 
+There are known flaws in the SSLv2 protocol. A man-in-the-middle attacker can force the communication to a less secure level and then attempt to break the weak encryption. The attacker can also truncate encrypted messages.
+ 
+SSL servers that support SSLv2 and use the same private keys are also vulnerable to the DROWN attack.
+ 
+These flaws have been fixed in SSLv3 (or TLSv1). Most servers (including all popular Web servers, mail servers, etc.) and clients (including Web-clients like IE, Netscape Navigator and Mozilla and mail clients) support both SSLv2 and SSLv3. However, SSLv2 is enabled by default for backward compatibility.
+ 
+The following link provides more information about this vulnerability:
+ 
+Analysis of the SSL 3.0 Protocol (http://www.schneier.com/paper-ssl.html)
+ 
+DROWN attack (https://drownattack.com/)","An attacker can exploit this vulnerability to read secure communications or maliciously modify messages.","Disable SSLv2. 
+Typically, for Apache/mod_ssl, httpd.conf or ssl.conf should have the following lines: 
+SSLProtocol -ALL +SSLv3 +TLSv1 
+SSLCipherSuite ALL:!aNULL:!ADH:!eNULL:!LOW:!EXP:RC4+RSA:+HIGH:+MEDIUM 
+ 
+For Apache/apache_ssl, httpd.conf or ssl.conf should have the following line: 
+SSLNoV2
+ 
+How to disable SSLv2 on IIS : Microsoft 
+Knowledge Base Article - 187498 (https://support.microsoft.com/en-us/kb/187498)
+ 
+How to Restrict the Use of Certain Cryptographic Algorithms and Protocols in Schannel.dll : 
+Microsoft Knowledge Base Article - 245030 (http://support.microsoft.com/kb/245030/en-us)
+ 
+For IIS 7, refer to the article How to Disable SSL 2.0 in IIS 7 (http://www.sslshopper.com/article-how-to-disable-ssl-2.0-in-iis-7.html) for further information.",,,"Established SSLv2 connection using DES-CBC3-MD5 cipher.","yes",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","42350","TLS Secure Renegotiation Extension Support Information","Ig","1","443","tcp",,"yes",,,,"Secure Socket Layer (SSL) and Transport Layer Security (TLS) renegotiation are vulnerable to an attack in which the attacker forms a TLS connection with the target server, injects content of his choice, and then splices in a new TLS connection from a client. The server treats the client's initial TLS handshake as a renegotiation and thus believes that the initial data transmitted by the attacker is from the same entity as the subsequent client data. TLS protocol was extended to cryptographically tierenegotiations to the TLS connections they are being performed over. This is referred to as TLS secure renegotiation extension. This detection determines whether the TLS secure renegotiation extension is supported by the server or not.","N/A","N/A",,,"TLS Secure Renegotiation Extension Status: supported.","no",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38597","Secure Sockets Layer/Transport Layer Security (SSL/TLS) Invalid Protocol Version Tolerance","Ig","1","443","tcp",,"yes",,,,"SSL/TLS protocols have different version that can be supported by both the client and the server. This test attempts to send invalid protocol versions to the target in order to find out what is the target's behavior. The results section contains a table that indicates what was the target's response to each of our tests.","N/A","N/A",,,"table	cols=2
+my version	target version
+0304	0301
+0399	0301
+0400	0301
+0499	0301","no",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38609","SSL Server default Diffie-Hellman prime information","Ig","1","443","tcp",,"yes",,,,"Diffie-Hellman is a popular cryptographic algorithm used by SSL/TLS. 
+- For fixed primes: 1024 and below are considered unsafe.
+
+- For variable primes: 512 is unsafe. 768 is probably mostly safe, but might not be for long. 1024 and above are considered safe.","N/A","N/A",,,"SSL server default to use Diffie-Hellman key exchange method with well-known 1024(bits) prime","no",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38603","SSLv3 Padding Oracle Attack Information Disclosure Vulnerability (POODLE)","Vuln","3","443","tcp",,"yes","CVE-2014-3566","POODLE","70574","The SSL protocol 3.0 design error, uses nondeterministic CBC padding, which makes it easier for man-in-the-middle attacks. 
+ 
+The target supports SSLv3, which makes it vulnerable to POODLE (Padding Oracle On Downgraded Legacy Encryption), even if it also supports more recent versions of TLS. It's subject to a downgrade attack, in which the attacker tricks the browser into connecting with SSLv3. 
+  This QID is an automatic PCI FAIL in accordance with the PCI standards.  
+
+Further details can be found under:  
+PCI: ASV Program Guide v3.1 (page 27) (https://www.pcisecuritystandards.org/documents/ASV_Program_Guide_v3.1.pdf) 
+PCI: Use of SSL Early TLS and ASV Scans (https://www.pcisecuritystandards.org/documents/Use-of-SSL-Early-TLS-and-ASV-Scans.pdf)","An attacker who can take a man-in-the-middle (MitM) position can exploit this vulnerability and gain access to encrypted communication between a client and server.","Disable SSLv3 support to avoid this vulnerability. 
+Examples to disable SSLv3. 
+nginx: list specific allowed protocols in the ""ssl_protocols"" line. Make sure SSLv2 and SSLv3 is not listed. For example: ssl_protocols TLSv2 TLSv1.1 TLSv1.2; 
+Apache: Add -SSLv3 to the ""SSLProtocol"" line.  
+How to disable SSL 3.0 on Microsoft IIS (https://support.microsoft.com/kb/187498/en-us).
+ For PCI, please refer to the Qualys community article (https://community.qualys.com/thread/15280).","Source: Metasploit
+Reference:CVE-2014-3566
+Description:HTTP SSL/TLS Version Detection (POODLE scanner) - Metasploit Ref : /modules/auxiliary/scanner/http/ssl_version
+Link:https://github.com/rapid7/metasploit-framework/blob/master//modules/auxiliary/scanner/http/ssl_version.rb
+Reference:CVE-2014-3566
+Description:HTTP SSL/TLS Version Detection (POODLE scanner) - Metasploit Ref : /modules/auxiliary/scanner/http/axis_local_file_include
+Link:https://github.com/rapid7/metasploit-framework/blob/master//modules/auxiliary/scanner/http/ssl_version.rb
+Reference:CVE-2014-3566
+Description:HTTP SSL/TLS Version Detection (POODLE scanner) - Metasploit Ref : /modules/auxiliary/spoof/cisco/dtp
+Link:https://github.com/rapid7/metasploit-framework/blob/master//modules/auxiliary/scanner/http/ssl_version.rb",,"","yes",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38116","SSL Server Information Retrieval","Ig","1","443","tcp",,"yes",,,," The following is a list of supported SSL ciphers. 
+Note: If a cipher is included in this list it means that it was possible to establish a SSL connection using that cipher. There are some web servers setups that allow connections to be established using a LOW grade cipher, only to provide a web page stating that the URL is accessible only through a non-LOW grade cipher. In this case even though LOW grade cipher will be listed here QID 38140 will not be reported.","N/A","N/A",,,"CIPHER	KEY-EXCHANGE	AUTHENTICATION	MAC	ENCRYPTION(KEY-STRENGTH)	GRADE
+SSLv2 PROTOCOL IS ENABLED	 	 	 	 	 
+RC4-MD5	RSA	RSA	MD5	RC4(128)	MEDIUM
+DES-CBC3-MD5	RSA	RSA	MD5	3DES(168)	MEDIUM
+SSLv3 PROTOCOL IS ENABLED	 	 	 	 	 
+SSLv3	COMPRESSION METHOD	None	 	 	 
+RC4-MD5	RSA	RSA	MD5	RC4(128)	MEDIUM
+RC4-SHA	RSA	RSA	SHA1	RC4(128)	MEDIUM
+DES-CBC3-SHA	RSA	RSA	SHA1	3DES(168)	MEDIUM
+TLSv1 PROTOCOL IS ENABLED	 	 	 	 	 
+TLSv1	COMPRESSION METHOD	None	 	 	 
+RC4-MD5	RSA	RSA	MD5	RC4(128)	MEDIUM
+RC4-SHA	RSA	RSA	SHA1	RC4(128)	MEDIUM
+DES-CBC3-SHA	RSA	RSA	SHA1	3DES(168)	MEDIUM
+AES128-SHA	RSA	RSA	SHA1	AES(128)	MEDIUM
+DHE-RSA-AES128-SHA	DH	RSA	SHA1	AES(128)	MEDIUM
+AES256-SHA	RSA	RSA	SHA1	AES(256)	HIGH
+DHE-RSA-AES256-SHA	DH	RSA	SHA1	AES(256)	HIGH
+ECDHE-RSA-AES128-SHA	ECDH	RSA	SHA1	AES(128)	MEDIUM
+ECDHE-RSA-AES256-SHA	ECDH	RSA	SHA1	AES(256)	HIGH
+TLSv1.1 PROTOCOL IS DISABLED	 	 	 	 	 
+TLSv1.2 PROTOCOL IS DISABLED	 	 	 	 	 
+TLSv1.3 PROTOCOL IS DISABLED","no",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38601","Secure Sockets Layer/Transport Layer Security (SSL/TLS) Use of Weak Cipher Rivest Cipher 4 (RC4/ARC4/ARCFOUR)","Vuln","3","443","tcp",,"yes","CVE-2013-2566, CVE-2015-2808",,"91787, 58796, 73684","Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS ) protocols provide integrity, confidentiality and authenticity services to other protocols that lack these features.
+ 
+SSL/TLS protocols use ciphers such as AES,DES, 3DES and RC4(Arcfour) to encrypt the content of the higher layer protocols and thus provide the confidentiality service. Normally the output of an encryption process is a sequence of random looking bytes. It was known that RC4 output has some bias in the output. Recently a group of researchers has discovered that there is a stronger bias in RC4(Arcfour) , which makes statistical analysis of ciphertext more practical.
+ 
+The described attack is to inject a malicious javascript into the victim's browser that would ensure that there are multiple connections being established with a target website and the same HTTP cookie is sent multiple times to the website in encrypted form. This provides the attacker a large set of ciphertext samples that can be used for statistical analysis.
+
+ NOTE: On 3/12/15 NVD changed the CVSS v2 access complicity from high to medium. As a result Qualys revised the CVSS score to 4.3 immediately. On 5/4/15 Qualys is also revising the severity to level 3.","If this attack is carried out and an HTTP cookie is recovered, then the attacker can use the cookie to impersonate the user whose cookie was recovered.
+ 
+This attack is not very practical as it requires the attacker to have access to millions of samples of ciphertext, but there are certain assumptions that an attacker can make to improve the chances of recovering the cleartext from cihpertext. For examples HTTP cookies are either base64 encoded or hex digits. This information can help the attacker in their efforts to recover the cookie.","RC4 should not be used where possible. One reason that RC4(Arcfour) was still being used was BEAST and Lucky13 attacks against CBC mode ciphers in SSL and TLS. However, TLSv 1.2 or later address these issues.",,,"CIPHER	KEY-EXCHANGE	AUTHENTICATION	MAC	ENCRYPTION(KEY-STRENGTH)	GRADE
+SSLv2 WITH RC4 CIPHERS IS SUPPORTED	 	 	 	 	 
+RC4-MD5	RSA	RSA	MD5	RC4(128)	MEDIUM
+SSLv3 WITH RC4 CIPHERS IS SUPPORTED	 	 	 	 	 
+RC4-MD5	RSA	RSA	MD5	RC4(128)	MEDIUM
+RC4-SHA	RSA	RSA	SHA1	RC4(128)	MEDIUM
+TLSv1 WITH RC4 CIPHERS IS SUPPORTED	 	 	 	 	 
+RC4-MD5	RSA	RSA	MD5	RC4(128)	MEDIUM
+RC4-SHA	RSA	RSA	SHA1	RC4(128)	MEDIUM","yes",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38657","Birthday attacks against TLS ciphers with 64bit block size vulnerability (Sweet32)","Vuln","3","443","tcp",,"yes","CVE-2016-2183",,"92630, 95568","Legacy block ciphers having block size of 64 bits are vulnerable to a practical collision attack when used in CBC mode. 
+All versions of SSL/TLS protocol support cipher suites which use DES, 3DES, IDEA or RC2 as the symmetric encryption cipher are affected. 
+
+Note: This CVE is patched at following versions 
+OPENSSL-0.9.8J-0.102.2 
+LIBOPENSSL0_9_8-0.9.8J-0.102.2 
+LIBOPENSSL0_9_8-32BIT-0.9.8J-0.102.2 
+OPENSSL1-1.0.1G-0.52.1 
+OPENSSL1-DOC-1.0.1G-0.52.1 
+LIBOPENSSL1_0_0-1.0.1G-0.52.1 
+LIBOPENSSL1-DEVEL-1.0.1G-0.52.1 
+JAVA-1_6_0-IBM-1.6.0_SR16.41-81.1","Remote attackers can obtain cleartext data via a birthday attack against a long-duration encrypted session.","Disable and stop using DES, 3DES, IDEA or RC2 ciphers. 
+More information can be found at  Sweet32 (https://sweet32.info/), Microsoft Windows TLS changes docs (https://docs.microsoft.com/en-us/windows-server/security/tls/tls-schannel-ssp-changes-in-windows-10-and-windows-server) and Microsoft Transport Layer Security (TLS) registry settings (https://docs.microsoft.com/en-us/windows-server/security/tls/tls-registry-settings)",,,"CIPHER	KEY-EXCHANGE	AUTHENTICATION	MAC	ENCRYPTION(KEY-STRENGTH)	GRADE
+SSLv2 WITH 64-BIT CBC CIPHERS IS SUPPORTED	 	 	 	 	 
+DES-CBC3-MD5	RSA	RSA	MD5	3DES(168)	MEDIUM
+SSLv3 WITH 64-BIT CBC CIPHERS IS SUPPORTED	 	 	 	 	 
+DES-CBC3-SHA	RSA	RSA	SHA1	3DES(168)	MEDIUM
+TLSv1 WITH 64-BIT CBC CIPHERS IS SUPPORTED	 	 	 	 	 
+DES-CBC3-SHA	RSA	RSA	SHA1	3DES(168)	MEDIUM","no",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38704","Secure Sockets Layer/Transport Layer Security (SSL/TLS) Key Exchange Methods","Ig","1","443","tcp",,"yes",,,,"The following is a list of SSL/TLS key exchange methods supported by the server, along with their respective key sizes and strengths.","N/A","N/A",,,"NAME	GROUP	KEY-SIZE	FORWARD-SECRET	CLASSICAL-STRENGTH	QUANTUM-STRENGTH
+SSLv2	 	 	 	 	 
+RSA	 	2048	no	110	low
+SSLv3	 	 	 	 	 
+RSA	 	2048	no	110	low
+TLSv1	 	 	 	 	 
+RSA	 	2048	no	110	low
+DHE	 	1024	yes	80	low
+ECDHE	secp256r1	256	yes	128	low
+ECDHE	secp384r1	384	yes	192	low","no",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38863","Weak SSL/TLS Key Exchange","Vuln","4","443","tcp",,"yes",,,,"QID Detection Logic:
+  For a SSL enabled port, the scanner probes and maintains a list of supported SSL/TLS versions. For each supported version, the scanner does a SSL handshake to get a list of KEX methods supported by the server. It reports all KEX methods that are considered weak. The criteria of a weak KEX method is as follows: 
+The SSL/TLS server supports key exchanges that are cryptographically weaker than recommended. Key exchanges should provide at least 112 bits of security, which translates to a minimum key size of 2048 bits for Diffie Hellman and RSA key exchanges.","An attacker with access to sufficient computational power might be able to recover the session key and decrypt session content.","Change the SSL/TLS server configuration to only allow strong key exchanges. Key exchanges should provide at least 112 bits of security, which translates to a minimum key size of 2048 bits for Diffie Hellman and RSA key exchanges.",,,"PROTOCOL	CIPHER	NAME	GROUP	KEY-SIZE	FORWARD-SECRET	CLASSICAL-STRENGTH	QUANTUM-STRENGTH
+TLSv1	DHE-RSA-AES256-SHA	DHE	 	1024	yes	80	low","yes",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","38706","Secure Sockets Layer/Transport Layer Security (SSL/TLS) Protocol Properties","Ig","1","443","tcp",,"yes",,,,"The following is a list of detected SSL/TLS protocol properties.","Items include:  
+ Extended Master Secret: indicates whether the extended_master_secret extension is supported or required by the server. This extension enhances security and is recommended. Applicable to TLSv1, TLSv1.1, TLSv1.2, DTLSv1, DTLSv1.2 
+ Encrypt Then MAC: indicates whether the encrypt_then_mac extension is supported or required by the server. This extension enhances the security of non-AEAD ciphers and is recommended. Applicable to TLSv1, TLSv1.1, TLSv1.2, DTLSv1, DTLSv1.2 
+ Heartbeat: indicates whether the heartbeat extension is supported. It is not recommended to enable this, except for DTLS. Applicable to TLSv1, TLSv1.1, TLSv1.2, TLSv1.3, DTLSv1, DTLSv1.2 
+ Truncated HMAC: indicates whether the truncated_hmac extension is supported. This can degrade security and is not recommended. Applicable to TLSv1, TLSv1.1, TLSv1.2, DTLSv1, DTLSv1.2 
+ Cipher priority: indicates whether client, server or both determine the priority of ciphers. Having the server determine the priority is recommended. Applicable to SSLv3, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3, DTLSv1, DTLSv1.2","N/A",,,"NAME	STATUS
+SSLv3	 
+Cipher priority controlled by	server
+TLSv1	 
+Extended Master Secret	yes
+Encrypt Then MAC	no
+Heartbeat	no
+Truncated HMAC	no
+Cipher priority controlled by	server
+OCSP stapling	yes
+SCT extension	no","no",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","42366","SSLv3.0/TLSv1.0 Protocol Weak CBC Mode Server Side Vulnerability (BEAST)","Vuln","3","443","tcp",,"yes","CVE-2011-3389",,"49388, 49778","SSLv 3.0 and TLS v1.0 protocols are used to provide integrity, authenticity and privacy to other protocols such as HTTP and LDAP. They provide these services by using encryption for privacy, x509 certificates for authenticity and one-way hash functions for integrity. To encrypt data SSL and TLS can use block ciphers, which are encryption algorithms that can encrypt only a fixed block of original data to an encrypted block of the same size. Note that these ciphers will always obtain the same resulting block for the same original block of data. To achieve a difference in the output the output of encryption is XORed with yet another block of the same size referred to as initialization vectors (IV). A special mode of operation for block ciphers known as CBC (cipher block chaining) uses one IV for the initial block and the result of the previous block for each subsequent block to obtain difference in the output of block cipher encryption.
+ 
+In SSLv3.0 and TLSv1.0 implementation the choice CBC mode usage was poor because the entire traffic shares one CBC session with a single set of initial IVs. The rest of the IV are as mentioned above results of the encryption of the previous blocks. The subsequent IV is available to the eavesdroppers. This allows an attacker with the capability to inject arbitrary traffic into the plain-text stream (to be encrypted by the client) to verify their guess of the plain-text preceding the injected block. If the attackers guess is correct then the output of the encryption will be the same for two blocks.
+ For low entropy data it is possible to guess the plain-text block with relatively few number of attempts. For example for data that has 1000 possibilities the number of attempts can be 500.
+ For more information please see a paper by Gregory V. Bard. (http://eprint.iacr.org/2006/136.pdf)
+ NOTE: 
+The CVSS access complexity assigned by NIST to CVE-2011-3389 is 'Medium' which makes the base score 4.3. But Qualys has assigned access complexity to 'High' for the server side, because Javascript injection and MiTM capabilities and a vulnerable client are required to exploit this vulnerability. Therefore the Qualys CVSS score is 2.6.","Recently attacks against the web authentication cookies have been described which used this vulnerability. If the authentication cookie is guessed by the attacker then the attacker can impersonate the legitimate user on the Web site which accepts the authentication cookie.","This attack was identified in 2004 and later revisions of TLS protocol which contain a fix for this. If possible, upgrade to TLSv1.1 or TLSv1.2. If upgrading to TLSv1.1 or TLSv1.2 is not possible, then disabling CBC mode ciphers will remove the vulnerability.
+ 
+Setting your SSL server to prioritize RC4 ciphers mitigates this vulnerability. Microsoft has posted information including workarounds for IIS at KB2588513 (http://technet.microsoft.com/en-us/security/advisory/2588513).
+ 
+Using the following SSL configuration in Apache mitigates this vulnerability: 
+SSLHonorCipherOrder On 
+SSLCipherSuite RC4-SHA:HIGH:!ADH 
+ 
+Qualys SSL/TLS Deployment Best Practices can be found here (https://www.ssllabs.com/projects/best-practices/).
+
+ 
+Note: RC4 recommendation is only in situations where upgrade to TLSv1.2 is not possible. RC4 in TLS v1.0 has output bias problem as described in QID 38601. Therefore it is recommended to upgrade to TLS v1.2 or later.",,,"Available non CBC cipher	Server's choice	SSL version
+RC4-SHA	DES-CBC3-SHA	SSLv3
+RC4-SHA	ECDHE-RSA-AES256-SHA	TLSv1","yes",,"General remote services"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","12230","Default Web Page","Ig","1","443","tcp",,"yes",,,,"The Result section displays the default Web page for the Web server.","N/A","N/A",,,"GET / HTTP/1.0
+Host: 38.92.142.49
+
+
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Tue, 06 Aug 2013 17:06:39 GMT
+Accept-Ranges: bytes
+ETag: ""89732d51c792ce1:0""
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Date: Wed, 24 Aug 2022 17:04:00 GMT
+Connection: keep-alive
+Content-Length: 689
+
+<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Strict//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-1"" />
+<title>IIS7</title>
+<style type=""text/css"">
+<!--
+body {
+color:000000;
+background-color:B3B3B3;
+margin:0;
+}
+
+container {
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
+a img {
+border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id=""container"">
+<img src=""welcome.png"" alt=""IIS7"" width=""571"" height=""411"" /> (http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409)
+</div>
+</body>
+</html>","no",,"CGI"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","13910","Default Web Page ( Follow HTTP Redirection)","Ig","1","443","tcp",,"yes",,,,"The Result section displays the default Web page for the Web server following HTTP redirections.","N/A","N/A",,,"GET / HTTP/1.0
+Host: 38.92.142.49
+
+
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Tue, 06 Aug 2013 17:06:39 GMT
+Accept-Ranges: bytes
+ETag: ""89732d51c792ce1:0""
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Date: Wed, 24 Aug 2022 17:08:51 GMT
+Connection: keep-alive
+Content-Length: 689
+
+<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Strict//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-1"" />
+<title>IIS7</title>
+<style type=""text/css"">
+<!--
+body {
+color:000000;
+background-color:B3B3B3;
+margin:0;
+}
+
+container {
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
+a img {
+border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id=""container"">
+<img src=""welcome.png"" alt=""IIS7"" width=""571"" height=""411"" /> (http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409)
+</div>
+</body>
+</html>","no",,"CGI"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","86672","List of Web Directories","Ig","1","443","tcp",,"no",,,,"Based largely on the HTTP reply code, the following directories are most likely present on the host.",,,,,"Directory	Source
+/aspnet_client/	brute force","no",,"Web server"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","12049","Microsoft IIS ISAPI Application Filters Mapped To Home Directory","Ig","2","443","tcp",,"no",,,,"The scanner enumerated the ISAPI filters mapped to the target Microsoft Internet Information Services (IIS) Web server's home directory ""/"". These are listed in the Result section below.","Most of the ISAPI filters come by default with IIS, and typically most of them are never used in Web applications. Further, there have been quite a few buffer overflow based remote code execution or denial of service attacks reported for many of these ISAPI filters.","Disable the ISAPI filters not being used on the target. This can be done using the ""Internet Information Services"" MMC snap-in's ""Home Directory"" section (under ""Configuration""). 
+Microsoft provides a free tool named LockDown to secure IIS. LockDown is available at : http://www.microsoft.com/technet/security/tools/locktool.mspx (http://www.microsoft.com/technet/security/tools/locktool.mspx).",,,".Aspx,.Asmx,.Rem,.Soap,","no",,"CGI"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","12033","Microsoft ASP.NET HTTP Handlers Enumerated","Ig","2","443","tcp",,"no",,,,"Microsoft ASP.NET HTTP handlers are used for processing Web requests for specific file extensions. For example, .aspx is used for ASP.NET pages, .rem and .soap are used for remoting, .asmx is used for Web services. These extensions are located in the ""machine.config"" file under the ""httpHandlers"" element.
+ 
+The scanner enummerated the common HTTP handlers present on the target ASP.NET system, and these handlers are displayed in the Results section below.",,,,,".Aspx,.Asmx,.Rem,.Soap,","no",,"CGI"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","45056","HTTP Methods Returned by OPTIONS Request","Ig","1","443","tcp",,"no",,,,"The HTTP methods returned in response to an OPTIONS request to the Web server detected on the target host are listed.","N/A","N/A",,,"Allow: OPTIONS, TRACE, GET, HEAD, POST","no",,"Information gathering"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","86484","Microsoft IIS ASP.NET Version Obtained","Ig","1","443","tcp",,"no",,,,"The ASP.NET version running on the Microsoft IIS Server has been retrieved.",,,,,"X-AspNet-Version: 2.0.50727","no",,"Web server"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","90780","Microsoft ASP.NET ValidateRequest Filters Bypass Cross-Site Scripting Vulnerability","Practice","3","443","tcp",,"no","CVE-2008-3842, CVE-2008-3843",,,"ASP.NET is a Web application framework developed by Microsoft. validateRequest filters, is a feature of ASP.NET which prevents the server from accepting content containing un-encoded HTML. This feature is designed to help prevent some script-injection attacks whereby client script code or HTML can be unknowingly submitted to a server, stored, and then presented to other users.
+ 
+Microsoft ASP.NET validateRequest filters could allow a remote attacker to bypass it's filters and conduct cross-site scripting attacks using a less-than slash (</) and less-than tilde slash (<~/) sequence. These vulnerabilities are described in CVE-2008-3842 and CVE-2008-3843. 
+ 
+This QID does not actively check for the XSS in the web application but relies on the ASP.NET banner version. For confirming the vulnerability please run a web application scan.
+ 
+Affected Versions: 
+Microsoft ASP.NET CLR version 1.1.4322.2407 and 2.0.50727 which is used in ASP.NET version 1.0 through 3.5 is affected.  
+For a detailed description of CLR versions and ASP.NET version please refer to .NET framework (http://msdn.microsoft.com/en-us/library/w4atty68.aspx)","Attackers can potentially launch XSS attacks against vulnerable applications that solely rely on ASP .NET ValidateRequest filters. This type of attack can result in defacement of the target site, or the redirection of confidential information (i.e.: session IDs or passwords) to unauthorised third parties.","The issue described in CVE-2008-3842 is fixed by the MS07-040 update. There are no patches available for CVE-2008-3843. The vulnerability can be mitigated by not relying on the ValidateRequest filters delivered with ASP.NET, using custom input filters and secure coding practices.
+ 
+Please update to the latest .Net framework .NET framework (http://msdn.microsoft.com/en-us/subscriptions/downloads/)",,,"QID: 90780 detected on port 443 over TCP.
+X-AspNet-Version: 2.0.50727","yes",,"Windows"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","45266","Web Server HTTP Protocol Versions","Ig","2","443","tcp",,"no",,,,"This QID lists supported HTTP protocol (HTTP 1.x or HTTP 2) from remote web server.","N/A","N/A",,,"Remote Web Server supports HTTP version 1.x on 443 port.GET / HTTP/1.1","no",,"Information gathering"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","11827","HTTP Security Header Not Detected","Vuln","2","443","tcp",,"no",,,,"This QID reports the absence of the following HTTP headers (https://www.owasp.org/index.php/OWASP_Secure_Headers_Projecttab=Headers) according to CWE-693: Protection Mechanism Failure (https://cwe.mitre.org/data/definitions/693.html): 
+
+X-Content-Type-Options: This HTTP header will prevent the browser from interpreting files as a different MIME type to what is specified in the Content-Type HTTP header.  
+Strict-Transport-Security: The HTTP Strict-Transport-Security response header (HSTS) allows web servers to declare that web browsers (or other complying user agents) should only interact with it using secure HTTPS connections, and never via the insecure HTTP protocol. 
+
+ QID Detection Logic: 
+This unauthenticated QID looks for the presence of the following HTTP responses: 
+The Valid directives are as belows:
+X-Content-Type-Options: nosniff 
+Strict-Transport-Security: max-age=< [;includeSubDomains]","Depending on the vulnerability being exploited, an unauthenticated remote attacker could conduct cross-site scripting, clickjacking or MIME-type sniffing attacks."," Note:  To better debug the results of this QID, it is requested that customers execute commands to simulate the following functionality: curl -lkL --verbose. 
+CWE-693: Protection Mechanism Failure mentions the following - The product does not use or incorrectly uses a protection mechanism that provides sufficient defense against directed attacks against the product. A ""missing"" protection mechanism occurs when the application does not define any mechanism against a certain class of attack. An ""insufficient"" protection mechanism might provide some defenses - for example, against the most common attacks - but it does not protect against everything that is intended. Finally, an ""ignored"" mechanism occurs when a mechanism is available and in active use within the product, but the developer has not applied it in some code path. 
+Customers are advised to set proper X-Content-Type-Options (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options) and Strict-Transport-Security (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security) HTTP response headers. 
+Depending on their server software, customers can set directives in their site configuration or Web.config files. Few examples are: 
+X-Content-Type-Options: 
+Apache: Header always set X-Content-Type-Options: nosniff 
+HTTP Strict-Transport-Security: 
+Apache: Header always set Strict-Transport-Security ""max-age=31536000; includeSubDomains"" 
+Nginx: add_header Strict-Transport-Security max-age=31536000; 
+ Note: Network devices that include a HTTP/HTTPS console for administrative/management purposes often do not include all/some of the security headers. This is a known issue and it is recommend to contact the vendor for a solution.",,,"X-Content-Type-Options HTTP Header missing on port 443.
+
+GET / HTTP/1.0
+Host: 38.92.142.49
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+
+
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Tue, 06 Aug 2013 17:06:39 GMT
+Accept-Ranges: bytes
+ETag: ""89732d51c792ce1:0""
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Date: Wed, 24 Aug 2022 17:10:19 GMT
+Connection: keep-alive
+Content-Length: 689
+
+Strict-Transport-Security HTTP Header missing on port 443.
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Tue, 06 Aug 2013 17:06:39 GMT
+Accept-Ranges: bytes
+ETag: ""89732d51c792ce1:0""
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Date: Wed, 24 Aug 2022 17:10:20 GMT
+Connection: keep-alive
+Content-Length: 689","yes",,"CGI"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","48001","Content-Security-Policy HTTP Security Header Not Detected","Ig","3","443","tcp",,"no",,"Content-Security-Policy",,"The HTTP Content-Security-Policy response header allows web site administrators to control resources the user agent is allowed to load for a given page. This helps guard against cross-site scripting attacks (XSS). 
+QID Detection Logic: 
+This QID detects the absence of the Content-Security-Policy HTTP header by transmitting a GET request.","N/A","N/A",,,"Content-Security-Policy HTTP Header missing on port 443.
+GET / HTTP/1.0
+Host: 38.92.142.49","no",,"Information gathering"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","48002","HTTP Public-Key-Pins Security Header Not Detected","Ig","1","443","tcp",,"no",,,,"HTTP Public Key Pinning (HPKP) is a security feature that tells a web client to associate a specific cryptographic public key with a certain web server to decrease the risk of MITM attacks with forged certificates. 
+QID Detection Logic: 
+This QID detects the absence of the Public-Key-Pins HTTP header by transmitting a GET request.","N/A","N/A",,,"HTTP Public-Key-Pins Header missing on port 443.
+GET / HTTP/1.0
+Host: 38.92.142.49","no",,"Information gathering"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","48118","HTTP Response Method and Header Information Collected","Ig","1","443","tcp",,"no",,,,"This QID prints the information, in the form of a text record, that a web server sends back to a client's browser in response to receiving a single HTTP GET request.  
+QID Detection Logic: 
+This QID returns the HTTP response method and header information returned by a web server.","N/A","N/A",,,"HTTP header and method information collected on port 443.
+
+GET / HTTP/1.0
+Host: 38.92.142.49
+
+
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Tue, 06 Aug 2013 17:06:39 GMT
+Accept-Ranges: bytes
+ETag: ""89732d51c792ce1:0""
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Date: Wed, 24 Aug 2022 17:04:00 GMT
+Connection: keep-alive
+Content-Length: 689","no",,"Information gathering"
+"38.92.142.49",,,"Windows 2008 R2 / Windows 7","host scanned, found vuln","48131","Referrer-Policy HTTP Security Header Not Detected","Ig","1","443","tcp",,"no",,"Referrer-Policy",,"No Referrer Policy is specified for the link. It checks for one of the following Referrer Policy in the response headers: 
+1) no-referrer 
+2) no-referrer-when-downgrade 
+3) same-origin 
+4) origin 
+5) origin-when-cross-origin 
+6) strict-origin 
+7) strict-origin-when-cross-origin  
+
+QID Detection Logic(Unauthenticated): 
+If the Referrer Policy header is not found , checks in response body for meta tag containing tag name as ""referrer"" and one of the above Referrer Policy.","The Referrer-Policy header controls how much referrer information is sent to a site when navigating to it. Absence of Referrer-Policy header can lead to leakage of sensitive information via the referrer header.","Referrer Policy header improves security by ensuring websites don't leak sensitive information via the referrer header. It's recommended to add secure Referrer Policies as a part of a defense-in-depth approach. 
+
+References: 
+- https://www.w3.org/TR/referrer-policy/ (https://www.w3.org/TR/referrer-policy/) 
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy)",,,"Referrer-Policy HTTP Header missing on 443 port.","no",,"Information gathering"
+"External : 38.92.142.49",,,,"Target distribution across scanner appliances"
+

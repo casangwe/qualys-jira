@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE SIMPLE_RETURN SYSTEM "https://qualysapi.qg4.apps.qualys.com/api/2.0/fo/scan/dtd/launch_output.dtd">
+<SIMPLE_RETURN>
+  <REQUEST>
+    <DATETIME>2022-08-30T19:10:27Z</DATETIME>
+    <USER_LOGIN>gecmm6ca</USER_LOGIN>
+    <RESOURCE>https://qualysapi.qg4.apps.qualys.com/api/2.0/fo/scan/</RESOURCE>
+    <PARAM_LIST>
+      <PARAM>
+        <KEY>action</KEY>
+        <VALUE>launch</VALUE>
+      </PARAM>
+      <PARAM>
+        <KEY>echo_request</KEY>
+        <VALUE>1</VALUE>
+      </PARAM>
+      <PARAM>
+        <KEY>scan_title</KEY>
+        <VALUE>.250API(test) VMDR Scan</VALUE>
+      </PARAM>
+      <PARAM>
+        <KEY>target_from</KEY>
+        <VALUE>assets</VALUE>
+      </PARAM>
+      <PARAM>
+        <KEY>asset_groups</KEY>
+        <VALUE>.250API(test)</VALUE>
+      </PARAM>
+      <PARAM>
+        <KEY>option_title</KEY>
+        <VALUE>Custom_Auth_Scan</VALUE>
+      </PARAM>
+    </PARAM_LIST>
+  </REQUEST>
+  <RESPONSE>
+    <DATETIME>2022-08-30T19:10:41Z</DATETIME>
+    <TEXT>New vm scan launched</TEXT>
+    <ITEM_LIST>
+      <ITEM>
+        <KEY>ID</KEY>
+        <VALUE>1049648</VALUE>
+      </ITEM>
+      <ITEM>
+        <KEY>REFERENCE</KEY>
+        <VALUE>scan/1661886640.49648</VALUE>
+      </ITEM>
+    </ITEM_LIST>
+  </RESPONSE>
+</SIMPLE_RETURN>
